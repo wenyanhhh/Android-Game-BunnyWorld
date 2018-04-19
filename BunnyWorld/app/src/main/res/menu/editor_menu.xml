@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Pages">
+        <menu>
+            <item android:title="Create Page"
+                android:id="@+id/create_page_menu"/>
+            <item android:title="Change Page"
+                android:id="@+id/change_page_menu"/>
+            <item android:title="Delete Page"
+                android:id="@+id/delete_page_menu"/>
+            <item android:title="Rename Page"
+                android:id="@+id/rename_page_menu"/>
+            <item android:title="Clear Page"
+                android:id="@+id/clear_page_menu"/>
+            <!--<item android:title="Undo"-->
+                <!--android:id="@+id/undo_menu"/>-->
+        </menu>
+    </item>
+
+
+    <item android:title="Create Script">
+        <menu>
+            <item android:title="On Click">
+                <menu>
+                    <item android:title="Go To"
+                        android:id="@+id/shape_click_goto_page_menu"/>
+                    <item android:title="Play Sound"
+                        android:id="@+id/shape_click_play_sound_menu"/>
+                    <item android:title="Show"
+                        android:id="@+id/shape_click_show_menu"/>
+                    <item android:title="Hide"
+                        android:id="@+id/shape_click_hide_menu"/>
+                </menu>
+            </item>
+            <item android:title="On Enter">
+                <menu>
+                    <item android:title="Go To"
+                        android:id="@+id/shape_enter_goto_page_menu"/>
+                    <item android:title="Play Sound"
+                        android:id="@+id/shape_enter_play_sound_menu"/>
+                    <item android:title="Show"
+                        android:id="@+id/shape_enter_show_menu"/>
+                    <item android:title="Hide"
+                        android:id="@+id/shape_enter_hide_menu"/>
+                </menu>
+            </item>
+            <item android:title="On Drop">
+                <menu>
+                    <item android:title="Go To"
+                        android:id="@+id/shape_drop_goto_page_menu"/>
+                    <item android:title="Play Sound"
+                        android:id="@+id/shape_drop_play_sound_menu"/>
+                    <item android:title="Show"
+                        android:id="@+id/shape_drop_show_menu"/>
+                    <item android:title="Hide"
+                        android:id="@+id/shape_drop_hide_menu"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <!--<item android:title="Create/Edit Text"-->
+    <!--android:id="@+id/shape_change_text_menu"/>-->
+    <item android:title="Play Bunny World"
+        android:id="@+id/play_bunny_world_menu"/>
+    <item android:title="Reset Editor"
+        android:id="@+id/db_reset_menu"/>
+
+    <!--<item android:title="Shapes">-->
+
+        <!--<menu>-->
+            <!--<item android:title="Create a Shape"-->
+                <!--android:id="@+id/add_shape_menu"/>-->
+            <!--<item android:title="Create Script">-->
+                <!--<menu>-->
+                    <!--<item android:title="On Click">-->
+                        <!--<menu>-->
+                            <!--<item android:title="Go To"-->
+                                <!--android:id="@+id/shape_click_goto_page_menu"/>-->
+                            <!--<item android:title="Play Sound"-->
+                                <!--android:id="@+id/shape_click_play_sound_menu"/>-->
+                            <!--<item android:title="Show"-->
+                                <!--android:id="@+id/shape_click_show_menu"/>-->
+                            <!--<item android:title="Hide"-->
+                                <!--android:id="@+id/shape_click_hide_menu"/>-->
+                        <!--</menu>-->
+                    <!--</item>-->
+                    <!--<item android:title="On Enter">-->
+                        <!--<menu>-->
+                            <!--<item android:title="Go To"-->
+                                <!--android:id="@+id/shape_enter_goto_page_menu"/>-->
+                            <!--<item android:title="Play Sound"-->
+                                <!--android:id="@+id/shape_enter_play_sound_menu"/>-->
+                            <!--<item android:title="Show"-->
+                                <!--android:id="@+id/shape_enter_show_menu"/>-->
+                            <!--<item android:title="Hide"-->
+                                <!--android:id="@+id/shape_enter_hide_menu"/>-->
+                        <!--</menu>-->
+                    <!--</item>-->
+                    <!--<item android:title="On Drop">-->
+                        <!--<menu>-->
+                            <!--<item android:title="Go To"-->
+                                <!--android:id="@+id/shape_drop_goto_page_menu"/>-->
+                            <!--<item android:title="Play Sound"-->
+                                <!--android:id="@+id/shape_drop_play_sound_menu"/>-->
+                            <!--<item android:title="Show"-->
+                                <!--android:id="@+id/shape_drop_show_menu"/>-->
+                            <!--<item android:title="Hide"-->
+                                <!--android:id="@+id/shape_drop_hide_menu"/>-->
+                        <!--</menu>-->
+                    <!--</item>-->
+                <!--</menu>-->
+            <!--</item>-->
+            <!--<item android:title="Show All Shapes"-->
+                <!--android:id="@+id/shape_show_all_menu"/>-->
+            <!--<item android:title="Show Script"-->
+                <!--android:id="@+id/shape_show_script_menu"/>-->
+            <!--<item android:title="Edit Shape"-->
+                <!--android:id="@+id/shape_edit_menu"/>-->
+            <!--<item android:title="Copy Shape"-->
+                <!--android:id="@+id/shape_copy_menu"/>-->
+            <!--<item android:title="Paste Shape"-->
+                <!--android:id="@+id/shape_paste_menu"/>-->
+            <!--<item android:title="Delete Shape"-->
+                <!--android:id="@+id/shape_delete_menu"/>-->
+            <!--<item android:title="Change Text (Text Only)"-->
+                <!--android:id="@+id/shape_change_text_menu"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+
+
+
+</menu>

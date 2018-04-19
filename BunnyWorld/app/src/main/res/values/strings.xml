@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Bunny World</string>
+    <string name="title_activity_page_change">Bunny World</string>
+
+    <string-array name="image_names">
+        <item>carrot</item>
+        <item>death</item>
+        <item>duck</item>
+        <item>fire</item>
+        <item>mystic</item>
+    </string-array>
+
+    <array name="images">
+        <item>@drawable/carrot</item>
+        <item>@drawable/death</item>
+        <item>@drawable/duck</item>
+        <item>@drawable/fire</item>
+        <item>@drawable/mystic</item>
+    </array>
+</resources>

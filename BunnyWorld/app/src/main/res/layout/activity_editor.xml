@@ -1,0 +1,88 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forestbackground"
+    android:weightSum="8.5">
+
+    <edu.stanford.cs108.finalproj.EditorView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight ="6"
+        android:id="@+id/editorView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="SHAPES"
+        android:textColor="@color/lightblue"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_shape_menu"
+            android:layout_width = "0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shapeadd"/>
+
+        <Button
+            android:id="@+id/shape_show_all_menu"
+            android:layout_width = "0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/showbutton"/>
+
+
+        <Button
+            android:id="@+id/shape_edit_menu"
+            android:layout_width = "0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shapeedit"/>
+
+        <Button
+            android:id="@+id/shape_copy_menu"
+            android:layout_width = "0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shapecopy"/>
+        <Button
+            android:id="@+id/shape_paste_menu"
+            android:layout_width = "0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shapepaste"/>
+        <Button
+            android:id="@+id/shape_delete_menu"
+            android:layout_width = "0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shapedelete"/>
+    </LinearLayout>
+</LinearLayout>
